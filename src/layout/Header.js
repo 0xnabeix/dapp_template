@@ -2,7 +2,7 @@ import Web3Modal from 'web3modal';
 import providerOptions from '../utils/Web3ProviderOptions';
 
 const Header = () => {
-  const handleClick = () => {
+  const handleClick = async () => {
     try {
       const web3Modal = new Web3Modal({
           providerOptions
@@ -21,4 +21,4 @@ const Header = () => {
   )
 }
 
-export default;
+export default Header;
