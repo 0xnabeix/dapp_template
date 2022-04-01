@@ -1,3 +1,5 @@
+import Header from "./Header";
+
 const MainLayout = ({children}) => {
   return (
     <>
